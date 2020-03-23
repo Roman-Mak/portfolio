@@ -1,0 +1,43 @@
+.skills {
+    height: 100vh;
+    background-color: #ffc4de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    height: 30%;
+}
+
+.mySkills {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill {
+    width: 25%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skillItem {
+    background-color: grey;
+    height: 35%;
+    width: 100%;
+}

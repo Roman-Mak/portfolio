@@ -27,17 +27,3 @@
     justify-content: space-between;
 }
 
-.skill {
-    width: 25%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.skillItem {
-    background-color: grey;
-    height: 35%;
-    width: 100%;
-}

@@ -23,44 +23,7 @@
 .myProjects {
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: flex-end;
     height: 100%;
     width: 100%;
-}
-
-.network {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: 1px solid;
-    width: 30%;
-}
-
-.network .description {
-    height: 25%;
-    background-color: grey;
-}
-
-.toDo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 40%;
-    background-color: white;
-    border: 1px solid;
-}
-
-.toDo .description {
-    height: 25%;
-    display: flex;
-    flex-direction: column;
-    background-color: grey;
-}
-
-.toDo .present {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }

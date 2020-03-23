@@ -18,4 +18,17 @@
 
 .form {
     background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 50%;
+}
+
+.input {
+    height: 10%;
+}
+
+.text {
+    height: 50%;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './Skills.module.css'
+import Skill from "./Skill/Skill";
 
 const Skills = () => {
     return (
@@ -9,14 +10,9 @@ const Skills = () => {
                     <span>Мои навыки</span>
                 </div>
                 <div className={style.mySkills}>
-                    <div className={style.skill}>skill1</div>
-                    <div className={style.skill}>skill2
-                        <div className={style.skillItem}>skill2.2</div>
-                    </div>
-                    <div className={style.skill}>
-                        <span>React</span>
-                        <span className={style.skillItem}>Подробное описание навыка</span>
-                    </div>
+                    <Skill />
+                    <Skill />
+                    <Skill />
                 </div>
             </div>
         </div>

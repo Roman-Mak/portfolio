@@ -8,10 +8,11 @@ const Footer = () => {
                 <span>Роман Макаревич</span>
                 <div className={style.links}>
                     <div className={style.link}>link</div>
+                    <div className={style.link} />
                     <div className={style.link}>link</div>
+                    <div className={style.link} />
                     <div className={style.link}>link</div>
-                    <div className={style.link}>link</div>
-                    <div className={style.link}>link</div>
+                    <div className={style.link} />
                     <div className={style.link}>link</div>
                 </div>
                 <span>2020 Все права защищены</span>

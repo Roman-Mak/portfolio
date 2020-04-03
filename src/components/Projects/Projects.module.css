@@ -17,13 +17,21 @@
 }
 
 .text {
-    height: 30%;
+    height: 90px;
 }
 
 .myProjects {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+@media (max-width: 999px) {
+    .myProjects {
+        justify-content: center;
+    }
+}
+
+

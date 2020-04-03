@@ -17,7 +17,7 @@
 }
 
 .text {
-    height: 30%;
+    height: 90px;
 }
 
 .mySkills {
@@ -25,5 +25,13 @@
     height: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+@media (max-width: 749px) {
+    .mySkills {
+        justify-content: center;
+    }
+}
+
 

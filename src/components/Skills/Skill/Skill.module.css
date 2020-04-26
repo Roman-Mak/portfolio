@@ -17,3 +17,15 @@
     background-color: grey;
     width: 100%;
 }
+
+@media screen and (max-width: 1130px) {
+    .skill {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .skill {
+        width: 100%;
+    }
+}

@@ -6,8 +6,8 @@ const Skills = () => {
     return (
         <div className={style.skills}>
             <div className={style.container}>
-                <div className={style.text}>
-                    <span>Мои навыки</span>
+                <div className={style.title}>
+                    <h2>Мои навыки</h2>
                 </div>
                 <div className={style.mySkills}>
                     <Skill />

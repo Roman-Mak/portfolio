@@ -27,3 +27,9 @@
 .shortDescr {
     padding: 5px 3%;
 }
+
+@media screen and (max-width: 1000px) {
+    .project {
+        width: 500px;
+    }
+}

@@ -6,8 +6,8 @@ const Projects = () => {
     return (
         <div className={style.projects}>
             <div className={style.container}>
-                <div className={style.text}>
-                    <span>Мои проекты</span>
+                <div className={style.title}>
+                    <h2>Мои проекты</h2>
                 </div>
                 <div className={style.myProjects}>
                     <Project />

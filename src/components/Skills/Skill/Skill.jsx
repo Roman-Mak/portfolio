@@ -8,7 +8,6 @@ const Skill = () => {
             <span>React</span>
             <div className={style.skillItem}>Подробное описание навыка</div>
         </div>
-
     );
 };
 

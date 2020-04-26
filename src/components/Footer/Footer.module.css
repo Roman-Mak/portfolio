@@ -18,7 +18,7 @@
 
 .links {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 280px;
 }
 
@@ -27,5 +27,11 @@
     width: 40px;
     height: 40px;
     border: 1px solid;
+}
+
+@media screen and (max-width: 350px) {
+    .links {
+        width: 100%;
+    }
 }
 

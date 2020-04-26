@@ -5,7 +5,7 @@ const Slogan = () => {
     return (
         <div className={style.slogan}>
             <div className={style.container}>
-              <span className={style.text}>Рассматриваю варианты удаленной работы</span>
+              <h2 className={style.title}>Рассматриваю варианты удаленной работы</h2>
               <button>Нанять меня</button>
             </div>
         </div>

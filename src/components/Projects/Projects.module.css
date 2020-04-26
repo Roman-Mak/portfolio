@@ -1,5 +1,5 @@
 .projects {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #ccffa7;
     display: flex;
     justify-content: center;
@@ -16,7 +16,7 @@
     align-items: center;
 }
 
-.text {
+.title {
     height: 90px;
 }
 

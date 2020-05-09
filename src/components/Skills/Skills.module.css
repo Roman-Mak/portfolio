@@ -1,6 +1,6 @@
 .skills {
     min-height: 100vh;
-    background-color: #ffc4de;
+    background-color: #252527;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,15 +9,10 @@
 .container {
     width: 80%;
     height: 80%;
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.title {
-    height: 90px;
 }
 
 .mySkills {

@@ -1,6 +1,6 @@
 .projects {
     min-height: 100vh;
-    background-color: #ccffa7;
+    background-color: #1f1f20;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,15 +9,10 @@
 .container {
     width: 80%;
     height: 80%;
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.title {
-    height: 90px;
 }
 
 .myProjects {

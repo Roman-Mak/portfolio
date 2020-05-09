@@ -1,6 +1,6 @@
 .footer {
     height: 200px;
-    background-color: #66fffd;
+    background-color: #252527;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,11 +9,18 @@
 .container {
     width: 80%;
     height: 80%;
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .links {
@@ -27,6 +34,10 @@
     width: 40px;
     height: 40px;
     border: 1px solid;
+}
+
+.rights {
+    opacity: 50%;
 }
 
 @media screen and (max-width: 350px) {

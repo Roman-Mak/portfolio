@@ -1,6 +1,6 @@
 .slogan {
-    height: 250px;
-    background-color: #decfff;
+    min-height: 250px;
+    background-color: #252527;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,13 +9,8 @@
 .container {
     width: 80%;
     height: 80%;
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-}
-
-.title {
-    text-align: center;
 }

@@ -6,7 +6,9 @@ const Skill = () => {
         <div className={style.skill}>
             <div className={style.img} />
             <span>React</span>
-            <div className={style.skillItem}>Подробное описание навыка</div>
+            <div className={style.skillItem}>
+                <span>Подробное описание навыка</span>
+                </div>
         </div>
     );
 };

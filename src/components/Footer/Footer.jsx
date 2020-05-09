@@ -5,14 +5,14 @@ const Footer = () => {
     return (
         <div className={style.footer}>
             <div className={style.container}>
-                <span>Роман Макаревич</span>
+                <h2 className={style.name}>Роман Макаревич</h2>
                 <div className={style.links}>
-                    <div className={style.link}>link</div>
-                    <div className={style.link}>link</div>
-                    <div className={style.link}>link</div>
-                    <div className={style.link}>link</div>
+                    <div className={style.link}/>
+                    <div className={style.link}/>
+                    <div className={style.link}/>
+                    <div className={style.link}/>
                 </div>
-                <span>2020 Все права защищены</span>
+                <span className={style.rights}>2020 Все права защищены</span>
             </div>
         </div>
     );

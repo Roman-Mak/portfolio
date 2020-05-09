@@ -16,12 +16,12 @@
 .description {
     display: flex;
     flex-direction: column;
-    background-color: grey;
+    background-color: #252527;
 }
 
 .name {
     padding: 3%;
-    background-color: darkslategrey;
+    background-color: #252527;
 }
 
 .shortDescr {

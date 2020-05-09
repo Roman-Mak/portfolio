@@ -1,13 +1,15 @@
 .header {
-    height: 80px;
-    background-color: #a2ddff;
+    height: 60px;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 .container {
     width: 80%;
-    border: 1px solid;
     display: flex;
     justify-content: flex-end;
     align-items: center;

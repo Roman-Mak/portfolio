@@ -8,11 +8,11 @@ const Contacts = () => {
             <div className={style.container}>
                 <Title title={"Контакты"}/>
                 <form className={style.form}>
-                    <input className={style.input} placeholder={"Имя"}/>
-                    <input className={style.input} placeholder={"e-mail"}/>
-                    <textarea className={style.text}></textarea>
+                    <input className={style.input} placeholder={"Имя"} type={"text"}/>
+                    <input className={style.input} placeholder={"E-mail"} type={"email"}/>
+                    <textarea className={style.text} placeholder={"Сообщение"}/>
                 </form>
-                <button>Отправить</button>
+                <button className={style.buttonSubmit} type={"submit"}>Отправить</button>
             </div>
         </div>
     );

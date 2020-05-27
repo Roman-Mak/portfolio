@@ -1,5 +1,5 @@
 .footer {
-    height: 200px;
+    min-height: 200px;
     background-color: #252527;
     display: flex;
     justify-content: center;
@@ -26,18 +26,29 @@
 .links {
     display: flex;
     justify-content: space-between;
-    width: 280px;
+    width: 310px;
+    padding: 15px;
 }
 
 .link {
-    background-color: grey;
-    width: 40px;
-    height: 40px;
-    border: 1px solid;
+    background-color: #1f1f20;
+    border-radius: 50%;
+    border: 2px solid grey;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    color: #4e93e6;
 }
 
 .rights {
     opacity: 50%;
+    margin-top: 15px;
+    font-size: 12px;
 }
 
 @media screen and (max-width: 350px) {

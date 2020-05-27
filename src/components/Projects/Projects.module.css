@@ -23,7 +23,7 @@
     flex-wrap: wrap;
 }
 
-@media (max-width: 999px) {
+@media (max-width: 1149px) {
     .myProjects {
         justify-content: center;
     }

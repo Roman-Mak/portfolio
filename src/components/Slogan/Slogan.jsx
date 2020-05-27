@@ -7,7 +7,7 @@ const Slogan = () => {
         <div className={style.slogan}>
             <div className={style.container}>
               <Title title={"Рассматриваю варианты удаленной работы"}/>
-              <button>Нанять меня</button>
+              <button className={style.button}>Нанять меня</button>
             </div>
         </div>
     );

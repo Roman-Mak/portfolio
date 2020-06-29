@@ -1,9 +1,10 @@
 .slogan {
-    min-height: 250px;
+    min-height: 350px;
     background-color: #252527;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .container {
@@ -13,21 +14,42 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .button {
-    width: 150px;
-    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 180px;
     border: none;
     text-transform: uppercase;
     margin: 0 0 15px;
-    padding: 0;
+    padding: 8px 30px;
     font-size: 14px;
-    font-weight: 700;
-    line-height: 1.2;
+    font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1px;
-    background-color: transparent;
+    line-height: 1;
     outline: none;
     color: white;
+    text-decoration: none;
+    position: relative;
+    z-index: 0;
+}
+
+.button:after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 10px;
+    background-color: #4e93e6;
+    bottom: 0;
+    z-index: -1;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover:after {
+    width: 100%;
+    height: 100%;
 }

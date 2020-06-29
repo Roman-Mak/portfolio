@@ -1,14 +1,17 @@
 import React from 'react';
 import style from './Slogan.module.css'
-import Title from "../Title/Title";
+import Title from "../common/Title/Title";
+import Fade from "react-reveal";
 
 const Slogan = () => {
     return (
         <div className={style.slogan}>
-            <div className={style.container}>
-              <Title title={"Рассматриваю варианты удаленной работы"}/>
-              <button className={style.button}>Нанять меня</button>
-            </div>
+            <Fade bottom>
+                <div className={style.container}>
+                    <Title title={"Рассматриваю варианты удаленной работы"}/>
+                    <a className={style.button} href={""}>Нанять меня</a>
+                </div>
+            </Fade>
         </div>
     );
 };

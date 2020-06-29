@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .container {
@@ -39,10 +40,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.link:hover {
+    border: 2px solid #1f1f20;
+    background-color: #4e93e6;
+}
+
+.icon:hover {
+    /*border: 2px solid #ffffff;*/
+    /*background-color: #f8f4ed;*/
+    color: #ffffff;
+}
+
+.link a {
+    line-height: 1;
 }
 
 .icon {
     color: #4e93e6;
+    transition: all 0.3s ease-in-out 0s;
+    border-radius: 50%;
+    padding: 11px;
 }
 
 .rights {

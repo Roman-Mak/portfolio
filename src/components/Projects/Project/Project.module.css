@@ -3,33 +3,59 @@
     flex-direction: column;
     justify-content: flex-end;
     width: 400px;
-    margin-bottom: 50px;
     height: max-content;
-    padding: 30px;
-    position: relative;
+    margin: 30px 30px 50px 30px;
+}
+
+.project a {
+    text-decoration: none;
 }
 
 .img {
-    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 250px;
+    transition: all 0.4s ease-in-out 0s;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.project:hover .img {
+    transform: scale(1.015, 1.015);
 }
 
 .img:before {
     content: "";
     position: absolute;
-    top: 30px;
-    left: 30px;
-    right: 30px;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 250px;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.project:hover .img:before {
     background-color: black;
     opacity: 0.4;
 }
 
 .watch {
-    position: relative;
+    text-transform: uppercase;
+    margin-top: 130px;
+    transition: all 0.4s ease-in-out 0s;
+    color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 16px;
+    z-index: 0;
+}
+
+.project:hover .watch {
+    color: #ffffff;
+    margin-top: 0;
 }
 
 .description {
@@ -52,7 +78,7 @@
     padding: 5px 3%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1148px) {
     .project {
         width: 500px;
     }

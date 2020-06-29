@@ -1,13 +1,14 @@
 import React from 'react';
 import style from './Navigation.module.css'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navigation = () => {
     return (
         <div className={style.nav}>
-            <a href="" className={style.link}>Главная</a>
-            <a href="" className={style.link}>Навыки</a>
-            <a href="" className={style.link}>Проекты</a>
-            <a href="" className={style.link}>Контакты</a>
+            <Link to="main" className={style.link} smooth={true}>Главная</Link>
+            <Link to="skills" className={style.link} smooth={true}>Навыки</Link>
+            <Link to="projects" className={style.link} smooth={true}>Проекты</Link>
+            <Link to="contacts" className={style.link} smooth={true}>Контакты</Link>
         </div>
     );
 };

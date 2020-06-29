@@ -3,7 +3,7 @@ import style from './Main.module.css'
 
 const Main = () => {
     return (
-        <div className={style.main}>
+        <div className={style.main} id={"main"}>
             <div className={style.container}>
                 <div className={style.greeting}>
                     <span>Привет!</span>
@@ -15,7 +15,7 @@ const Main = () => {
                     </div>
                 </div>
                 <div className={style.photo}>
-                    <div className={style.image}></div>
+                    <div className={style.image}/>
                 </div>
             </div>
         </div>

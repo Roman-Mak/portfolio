@@ -6,5 +6,11 @@
 
 .link {
     text-decoration: none;
-    color: black;
+    color: #c0c0c0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #ffffff;
 }

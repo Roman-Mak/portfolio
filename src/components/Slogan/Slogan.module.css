@@ -28,9 +28,10 @@
     margin: 0 0 15px;
     padding: 8px 30px;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     line-height: 1;
+    letter-spacing: 2px;
     outline: none;
     color: white;
     text-decoration: none;

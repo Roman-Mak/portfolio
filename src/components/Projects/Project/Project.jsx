@@ -6,12 +6,12 @@ const Project = (props) => {
         <div className={style.project}>
             <a href={""}>
                 <div className={style.img} style={props.style}>
-                    <a className={style.watch} href={""}>Смотреть</a>
+                    <span className={style.watch}>Смотреть</span>
                 </div>
             </a>
             <div className={style.description}>
                 <span className={style.name}>{props.name}</span>
-                <span className={style.shortDescr}>Краткое описание</span>
+                <span className={style.shortDescr}>{props.description}</span>
             </div>
         </div>
     );

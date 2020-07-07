@@ -6,12 +6,12 @@ const Main = () => {
         <div className={style.main} id={"main"}>
             <div className={style.container}>
                 <div className={style.greeting}>
-                    <span>Привет!</span>
+                    <span>Hi There!</span>
                     <div className={style.description}>
-                        <span>Меня зовут </span>
-                        <span className={style.firstName}>Роман </span>
-                        <span className={style.secondName}>Макаревич</span>
-                        <h1>Я front-end разработчик</h1>
+                        <span>I am </span>
+                        <span className={style.firstName}>Roman </span>
+                        <span className={style.secondName}>Makarevich</span>
+                        <h1>A front-end developer</h1>
                     </div>
                 </div>
                 <div className={style.photo}>

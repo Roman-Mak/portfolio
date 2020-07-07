@@ -8,8 +8,8 @@ const Slogan = () => {
         <div className={style.slogan}>
             <Fade bottom>
                 <div className={style.container}>
-                    <Title title={"Рассматриваю варианты удаленной работы"}/>
-                    <a className={style.button} href={""}>Нанять меня</a>
+                    <Title title={"I Am Available For Freelancer"}/>
+                    <a className={style.button} href={""}>Hire me</a>
                 </div>
             </Fade>
         </div>

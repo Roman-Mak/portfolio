@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <div className={style.footer}>
             <div className={style.container}>
-                <h2 className={style.name}>Роман Макаревич</h2>
+                <h2 className={style.name}>Roman Makarevich</h2>
                 <Fade bottom cascade>
                     <div className={style.links}>
                         <a className={style.link} href={""}>
@@ -28,7 +28,7 @@ const Footer = () => {
                         </a>
                     </div>
                 </Fade>
-                <span className={style.rights}>©2020 Все права защищены</span>
+                {/*<span className={style.rights}>©2020 Все права защищены</span>*/}
             </div>
         </div>
     );

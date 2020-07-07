@@ -6,7 +6,7 @@ const Project = (props) => {
         <div className={style.project}>
             <a href={""}>
                 <div className={style.img} style={props.style}>
-                    <span className={style.watch}>Смотреть</span>
+                    <span className={style.watch}>watch</span>
                 </div>
             </a>
             <div className={style.description}>

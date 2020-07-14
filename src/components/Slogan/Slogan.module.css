@@ -33,6 +33,7 @@
     line-height: 1;
     letter-spacing: 2px;
     outline: none;
+    cursor: default;
     color: white;
     text-decoration: none;
     position: relative;

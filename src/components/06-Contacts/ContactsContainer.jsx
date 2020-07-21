@@ -1,5 +1,5 @@
 import React, {useCallback, useState} from 'react';
-import {sendMessage} from "../../assets/contacts-api";
+import {sendMessage} from "../../api/contacts-api";
 import Contacts from "./Contacts";
 
 const ContactsContainer = () => {

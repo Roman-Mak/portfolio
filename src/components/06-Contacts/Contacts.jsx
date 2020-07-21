@@ -1,10 +1,9 @@
-import React from 'react';
-import style from './Contacts.module.css'
+import React from "react";
+import style from "./Contacts.module.css";
 import Title from "../common/Title/Title";
 import Fade from "react-reveal";
 
 const Contacts = (props) => {
-    console.log("render")
     const {
         name, email, message, isMessageSent, isError, errorText, isDisable,
         onSubmit, onNameChange, onEmailChange, onMessageChange

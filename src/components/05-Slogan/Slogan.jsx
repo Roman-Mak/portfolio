@@ -1,8 +1,8 @@
-import React from 'react';
-import style from './Slogan.module.css'
+import React from "react";
+import style from "./Slogan.module.css";
 import Title from "../common/Title/Title";
 import Fade from "react-reveal";
-import { Link, animateScroll as scroll } from "react-scroll";
+import {Link} from "react-scroll";
 
 const Slogan = () => {
     return (

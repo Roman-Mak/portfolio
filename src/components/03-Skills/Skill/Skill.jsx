@@ -1,6 +1,6 @@
-import React from 'react';
-import style from './Skill.module.css';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import React from "react";
+import style from "./Skill.module.css";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 
 const Skill = (props) => {

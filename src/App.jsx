@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/Header/Header";
-import Main from "./components/Main/Main";
-import Skills from "./components/Skills/Skills";
-import Projects from "./components/Projects/Projects";
-import Slogan from "./components/Slogan/Slogan";
-import Footer from "./components/Footer/Footer";
+import Header from "./components/01-Header/Header";
+import Main from "./components/02-Main/Main";
+import Skills from "./components/03-Skills/Skills";
+import Projects from "./components/04-Projects/Projects";
+import Slogan from "./components/05-Slogan/Slogan";
+import Footer from "./components/07-Footer/Footer";
 import Particles from "react-particles-js";
-import ContactsContainer from "./components/Contacts/ContactsContainer";
+import ContactsContainer from "./components/06-Contacts/ContactsContainer";
 
 const particlesOpt = {
     particles: {

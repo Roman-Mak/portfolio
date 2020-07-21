@@ -1,5 +1,6 @@
-import React from 'react';
-import style from './Main.module.css'
+import React from "react";
+import style from "./Main.module.css";
+import photo from "./../../assets/img/photo.jpg";
 
 const Main = () => {
     return (
@@ -15,7 +16,9 @@ const Main = () => {
                     </div>
                 </div>
                 <div className={style.photo}>
-                    <div className={style.image}/>
+                    <div className={style.image}>
+                        <img src={photo} alt={""} className={style.myPhoto}/>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
-import React from 'react';
-import style from './Navigation.module.css'
-import { Link, animateScroll as scroll } from "react-scroll";
+import React from "react";
+import style from "./Navigation.module.css";
+import {Link} from "react-scroll";
 
 const Navigation = () => {
     return (

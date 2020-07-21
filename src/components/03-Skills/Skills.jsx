@@ -1,10 +1,10 @@
-import React from 'react';
-import style from './Skills.module.css'
+import React from "react";
+import style from "./Skills.module.css";
 import Skill from "./Skill/Skill";
 import Title from "../common/Title/Title";
-import {faReact} from '@fortawesome/free-brands-svg-icons';
-import {faJsSquare} from '@fortawesome/free-brands-svg-icons';
-import {faFileCode} from '@fortawesome/free-regular-svg-icons';
+import {faReact} from "@fortawesome/free-brands-svg-icons";
+import {faJsSquare} from "@fortawesome/free-brands-svg-icons";
+import {faFileCode} from "@fortawesome/free-regular-svg-icons";
 import Fade from "react-reveal";
 import {htmlCssDescription, JsDescription, reactDescription} from "../../assets/skillsDescription";
 

@@ -1,10 +1,10 @@
-import React from 'react';
-import style from './Project.module.css'
+import React from "react";
+import style from "./Project.module.css";
 
 const Project = (props) => {
     return (
         <div className={style.project}>
-            <a href={""}>
+            <a href={props.link} target="_blank" rel="noopener noreferrer">
                 <div className={style.img} style={props.style}>
                     <span className={style.watch}>watch</span>
                 </div>
